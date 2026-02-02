@@ -28,7 +28,7 @@ export function take<T extends IterableContainer>(
  * @signature
  *    R.take(n)(array)
  * @example
- *    R.pipe([1, 2, 3, 4, 3, 2, 1], R.take(n)) // => [1, 2, 3]
+ *    R.pipe([1, 2, 3, 4, 3, 2, 1], R.take(3)) // => [1, 2, 3]
  * @dataLast
  * @lazy
  * @category Array
