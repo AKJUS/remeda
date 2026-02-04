@@ -71,7 +71,7 @@ export function keys<T extends object>(data: T): Keys<T>;
  * @signature
  *    R.keys()(source)
  * @example
- *    R.Pipe(['x', 'y', 'z'], keys()); // => ['0', '1', '2']
+ *    R.pipe(['x', 'y', 'z'], R.keys()); // => ['0', '1', '2']
  *    R.pipe({ a: 'x', b: 'y', 5: 'z' } as const, R.keys()) // => ['a', 'b', '5']
  * @dataLast
  * @category Object
