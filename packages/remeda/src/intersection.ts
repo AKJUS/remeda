@@ -34,7 +34,7 @@ export function intersection<T, S>(
  * @example
  *    R.pipe([1, 2, 3], R.intersection([2, 3, 5])); // => [2, 3]
  *    R.pipe([1, 1, 2, 2], R.intersection([1])); // => [1]
- * @dataFirst
+ * @dataLast
  * @lazy
  * @category Array
  */
