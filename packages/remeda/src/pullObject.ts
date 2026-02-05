@@ -65,7 +65,7 @@ export function pullObject<
  *       { name: "john", email: "john@remedajs.com" },
  *       { name: "jane", email: "jane@remedajs.com" }
  *     ],
- *     R.pullObject(R.prop("email"), R.prop("name")),
+ *     R.pullObject(R.prop("name"), R.prop("email")),
  *   ); // => { john: "john@remedajs.com", jane: "jane@remedajs.com" }
  * @dataLast
  * @category Object
