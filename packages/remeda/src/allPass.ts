@@ -1,7 +1,7 @@
 import { purry } from "./purry";
 
 /**
- * Determines whether all predicates returns true for the input data.
+ * Determines whether all predicates return true for the input data.
  *
  * @param data - The input data for predicates.
  * @param fns - The list of predicates.
@@ -22,7 +22,7 @@ export function allPass<T>(
 ): boolean;
 
 /**
- * Determines whether all predicates returns true for the input data.
+ * Determines whether all predicates return true for the input data.
  *
  * @param fns - The list of predicates.
  * @signature
